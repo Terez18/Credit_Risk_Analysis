@@ -6,6 +6,14 @@ The purpose of the analysis was to use different machine learning models to samp
 
 ---
 
+## Links to complete code:
+
+![credit_risk_resampling.ipynb](credit_risk_resampling.ipynb)
+
+![credit_risk_ensemble.ipynb](credit_risk_ensemble.ipynb)
+
+---
+
 ## Results: 
 
 Below are the balanced accuracy scores and the precision and recall scores of all six machine learning models:
@@ -80,4 +88,4 @@ This last model is the second new machine learning model that reduces bias. This
 
 ## Summary: 
 
-In summary, most models predicted the high risk loans with relatively similar accuracy. There were a large number of loans that were detected is high risk even though they were not. These same models also were not great at finding all of the high risk loans so they missed a decent percentage of loans that were in fact high risk and they were classified as not high risk. The only mmodel that performed better than all the rest was the newer machine learning model that is called the easy enseble calssifier. It had less false positives and also it found a higher percentage of the high risk loans corectly. One thing to remember when looking at accuracy is that the higher the accuracy the less general the model is. It may have an excellent fit to one dataset but may not perform as well as soon as it is used with other datasets. In this case, I would recommend using this last model since even though the percentages are high, in this scenario of finding high risk loans, it is good to find most of the high risk loans and not to find too many that are incorrectly classified as high. It would be good to test it on other datasets to confirm that it performs just as well, and that the fit is not only good specifically for this dataset. 
+In summary, most models predicted the high risk loans with relatively similar accuracy. There were a large number of loans that were detected is high risk even though they were not. These same models also were not great at finding all of the high risk loans so they missed a decent percentage of loans that were in fact high risk and they were classified as not high risk. The only mmodel that performed better than all the rest was the newer machine learning model that is called the easy enseble calssifier. It had less false positives and also it found a higher percentage of the high risk loans corectly. One thing to remember when looking at accuracy is that the higher the accuracy the less general the model is. It may have an excellent fit to one dataset but may not perform as well as soon as it is used with other datasets. In this case, I would recommend using this last model since even though the percentages are high, in this scenario of finding high risk loans, it is good to find most of the high risk loans and not to find too many that are incorrectly classified as high. It would be good to test it on other datasets to confirm that it performs just as well, and that the fit is not only good specifically for this dataset. One more note, when looking at the number of features in this dataset, in the new machine learning model, there was a very long list of features and none of them were particularly dominant at predicting loan risk. The ability to predict loan risk was distributed among the long list of features. 
