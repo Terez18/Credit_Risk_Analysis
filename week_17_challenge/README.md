@@ -64,7 +64,7 @@ Similarly, combination sampling did not perform perfectly either with an accurac
 
 Image for the combination over and under sampling code:
 
-![Combination_Over_and_Under_Sampling.PNG](Images/Combination_(Over_and_Under)_Sampling.PNG)
+![Combination_Over_and_Under_Sampling.PNG](Images/Combination_Over_and_Under_Sampling.PNG)
 
 
 
